@@ -1,0 +1,88 @@
+/* Estilização Geral */
+body {
+    background-color: #f3f1f2; /* Fundo cinza claro */
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h3 {
+    color: #007bff; /* Azul do Bootstrap */
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #ffffff; /* Fundo branco */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Formulário */
+form {
+    padding: 15px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    background: #f1f1f1;
+}
+
+form .form-label {
+    font-weight: bold;
+    color: #495057;
+}
+
+form .form-control {
+    border-radius: 6px;
+    border: 1px solid #ced4da;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Tabela */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+table a.btn {
+    margin-right: 5px;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
